@@ -1,0 +1,49 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --blue: rgb(18, 112, 132);
+}
+
+#cover {
+  background-image: url("/img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+#cover h1 {
+  font-family: "Cambria", serif;
+  padding: 10px 20px 10px 20px;
+  color: var(--blue);
+  background-color: rgba(255, 255, 255, 0.65);
+  font-size: 200%;
+  font-style: italic;
+}
+
+#cover h1::first-line {
+  font-style: normal;
+  font-size: 250%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+nav {
+  background-color: var(--blue) !important;
+}
+
+#feleplist {
+  list-style-image: url("/img/icon.png");
+}
+
+h2 {
+  font-variant: small-caps;
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+}
+
+.arnyek {
+    box-shadow: 2px 2px 5px var(--black);
+}
